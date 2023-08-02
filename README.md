@@ -84,3 +84,33 @@ admin-MacBook-Pro:g-exercesises $ git reset --hard 66edfd6
 HEAD is now at 66edfd6 bundle1 exercesise2
 admin-MacBook-Pro:g-exercesises $
 ```
+
+## BUNDLE2
+
+### EXERCESISE1
+
+```
+admin-MacBook-Pro:g-exercesises $ git checkout -b ft/bundle-2
+Switched to a new branch 'ft/bundle-2'
+admin-MacBook-Pro:g-exercesises $ git add .
+admin-MacBook-Pro:g-exercesises $ git add .
+admin-MacBook-Pro:g-exercesises $ git commit -m "bundle2 exercesise1"
+[ft/bundle-2 48a1791] bundle2 exercesise1
+ 1 file changed, 11 insertions(+)
+ create mode 100644 services.html
+admin-MacBook-Pro:g-exercesises $ git push origin ft/bundle-2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 423 bytes | 423.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'ft/bundle-2' on GitHub by visiting:
+remote:      https://github.com/divinecharlotte/g-exercesises/pull/new/ft/bundle-2
+remote:
+To https://github.com/divinecharlotte/g-exercesises.git
+ * [new branch]      ft/bundle-2 -> ft/bundle-2
+admin-MacBook-Pro:g-exercesises $
+```
