@@ -277,37 +277,20 @@ admin-MacBook-Pro:g-exercesises $ git checkout git merge ft/service-redesign
 error: pathspec 'git' did not match any file(s) known to git
 error: pathspec 'merge' did not match any file(s) known to git
 error: pathspec 'ft/service-redesign' did not match any file(s) known to git
-admin-MacBook-Pro:g-exercesises $ git checkout ft/service-re
-design
-Switched to branch 'ft/service-redesign'
-admin-MacBook-Pro:g-exercesises $ git checkout main
-Switched to branch 'main'
-Your branch is up to date with 'origin/main'.
-admin-MacBook-Pro:g-exercesises $ git pull main
-fatal: 'main' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-admin-MacBook-Pro:g-exercesises $ git pull
-remote: Enumerating objects: 4, done.
-remote: Counting objects: 100% (4/4), done.
-remote: Compressing objects: 100% (2/2), done.
-remote: Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (2/2), done.
-From https://github.com/divinecharlotte/g-exercesises
-   06b7aea..c05af45  main       -> origin/main
-Updating 06b7aea..c05af45
-Fast-forward
- services.html | 11 +++++++++++
- 1 file changed, 11 insertions(+)
- create mode 100644 services.html
-admin-MacBook-Pro:g-exercesises $ git checkout ft/service-redesign
-Switched to branch 'ft/service-redesign'
-admin-MacBook-Pro:g-exercesises $ git checkout main
-Switched to branch 'main'
-Your branch is up to date with 'origin/main'.
-admin-MacBook-Pro:g-exercesises $ git checkout ft/bundle-2
-Switched to branch 'ft/bundle-2'
-admin-MacBook-Pro:g-exercesises $
+admin-MacBook-Pro:g-exercesises andela$ git add .
+admin-MacBook-Pro:g-exercesises andela$ git commit -m "bubsle 2 ex
+ercesise2 "
+[ft/bundle-2 970f0fd] bubsle 2 exercesise2
+ 1 file changed, 197 insertions(+)
+admin-MacBook-Pro:g-exercesises andela$ git push origin ft/bundle-2
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 2.69 KiB | 2.69 MiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/divinecharlotte/g-exercesises.git
+   48a1791..970f0fd  ft/bundle-2 -> ft/bundle-2
+admin-MacBook-Pro:g-exercesises andela$
 ````
