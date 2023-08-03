@@ -477,3 +477,48 @@ To https://github.com/divinecharlotte/g-exercesises.git
 admin-MacBook-Pro:g-exercesises $
 
 ```
+
+## BUNDLE5
+
+### EXERCESISE1
+
+```
+admin-MacBook-Pro:g-exercesises $ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+admin-MacBook-Pro:g-exercesises $ git remote add b-4  https://github.com/divinecharlotte/b-4.git
+admin-MacBook-Pro:g-exercesises $ git remote -v
+b-4     https://github.com/divinecharlotte/b-4.git (fetch)
+b-4     https://github.com/divinecharlotte/b-4.git (push)
+git-copy        https://github.com/divinecharlotte/b-4.git (fetch)
+git-copy        https://github.com/divinecharlotte/b-4.git (push)
+origin  https://github.com/divinecharlotte/g-exercesises.git (fetch)
+origin  https://github.com/divinecharlotte/g-exercesises.git (push)
+admin-MacBook-Pro:g-exercesises $ git push origin main
+Everything up-to-date
+admin-MacBook-Pro:g-exercesises $ git add .
+admin-MacBook-Pro:g-exercesises $ git commit -m "bundle4 exercesise1"
+[main 2fadfa7] bundle4 exercesise1
+ 1 file changed, 11 insertions(+)
+admin-MacBook-Pro:g-exercesises $ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 407 bytes | 407.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/divinecharlotte/g-exercesises.git
+   209e1cd..2fadfa7  main -> main
+admin-MacBook-Pro:g-exercesises $ git push --all git-copy
+Enumerating objects: 75, done.
+Counting objects: 100% (75/75), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (72/72), done.
+Writing objects: 100% (75/75), 12.57 KiB | 1.14 MiB/s, done.
+Total 75 (delta 37), reused 0 (delta 0)
+remote: Resolving deltas: 100% (37/37), done.
+admin-MacBook-Pro:g-exercesises $ git push
+Everything up-to-date
+admin-MacBook-Pro:g-exercesises $
+```
